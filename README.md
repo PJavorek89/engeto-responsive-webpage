@@ -2,4 +2,4 @@
 
 Závěrečný projekt pro html/css blok engeto kurzu
 
-## --30px obraze -> text ->30px -> jmeno
+nasazení stránky na: [engeto-responzive-page](https://pjavorek89.github.io/engeto-responsive-webpage/)
