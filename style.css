@@ -71,13 +71,25 @@ a:visited {
 }
 
 .navigation-item {
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, transform-origin 0.2s ease-in-out;
   text-decoration: none;
 }
 
 .navigation-item:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+.navigation-item:first-child:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transform-origin: left center;
+}
+
+.navigation-item:last-child:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transform-origin: right center;
 }
 
 .navigation-wrapper {
